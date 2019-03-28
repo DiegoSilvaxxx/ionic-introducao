@@ -24,7 +24,8 @@ export class MyApp {
       { title: 'Home', component: 'HomePage' },
       { title: 'List', component: 'ListPage' },
       { title: 'Teste', component: 'TesteIonicPage' },
-      { title: 'Contato', component: 'FormContatePage' }
+      { title: 'Contato', component: 'FormContatePage' },
+      { title: 'Lista Filmes', component: 'ListaFilmesServPage' }
     ];
 
   }

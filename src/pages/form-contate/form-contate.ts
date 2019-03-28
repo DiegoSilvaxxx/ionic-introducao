@@ -33,7 +33,7 @@ export class FormContatePage {
   }
   enviarMensagem(){
     console.log(this.formGroup.value);
-    this.alertCtrl();
+    this.showAlert();
     this.navCtrl.setRoot('HomePage')
   }
   showAlert() {
